@@ -13,6 +13,7 @@ import AsyncStorage from "@react-native-community/async-storage";
 import { TextInput } from "react-native-gesture-handler";
 import { LinearGradient } from "expo-linear-gradient";
 
+import { Feather } from "@expo/vector-icons";
 import Button from "../components/Buttons/Button";
 import { useNavigation } from "@react-navigation/native";
 import { StatusBar } from "expo-status-bar";
@@ -21,10 +22,10 @@ export default function Login() {
   const [textinput, setTextinput] = useState("");
   const [keyinput, setKeyinput] = useState("");
   const navigation = useNavigation();
-  function showToastWithGravity(text) {
+  function showToastWithGravity(text: string) {
     ToastAndroid.showWithGravity(text, ToastAndroid.SHORT, ToastAndroid.CENTER);
   }
-  async function _storeData(user, key) {
+  async function _storeData(user: string, key: string) {
     try {
       const url = "https://www.speedrun.com/api/v1/users/" + user;
       const response = await fetch(url);
@@ -47,7 +48,7 @@ export default function Login() {
       );
     }
   }
-  function loadInBrowser(link) {
+  function loadInBrowser(link: string) {
     Linking.openURL(link).catch((err) =>
       showToastWithGravity("Couldn't load page")
     );
@@ -62,29 +63,35 @@ export default function Login() {
         <View style={styles.header}>
           <Text style={styles.h1}>Welcome back</Text>
           <Text style={styles.h2}>
-            Use your credentials to login into your account.{"\n"} API-Key is
+            Use your credentials to login into your account.{"\n\n"} API-Key is
             optional and only used for notifications.
           </Text>
         </View>
         <KeyboardAvoidingView style={styles.form}>
           <View style={styles.textinputs}>
-            <TextInput
-              style={styles.textinput}
-              autoCapitalize={"none"}
-              placeholder={"Username"}
-              autoCompleteType={"username"}
-              onChangeText={(text) => setTextinput(text)}
-              value={textinput}
-            />
-            <TextInput
-              style={styles.textinput}
-              autoCapitalize={"none"}
-              placeholder={"API-Key (Optional)"}
-              autoCompleteType={"username"}
-              onChangeText={(text) => setKeyinput(text)}
-              value={keyinput}
-              secureTextEntry={true}
-            />
+            <View style={styles.textinput}>
+              <Feather name={"user"} size={18} color={colors.primary} />
+              <TextInput
+                style={{ marginLeft: 10, flex: 1 }}
+                autoCapitalize={"none"}
+                placeholder={"Username"}
+                autoCompleteType={"username"}
+                onChangeText={(text) => setTextinput(text)}
+                value={textinput}
+              />
+            </View>
+            <View style={styles.textinput}>
+              <Feather name={"key"} size={18} color={colors.primary} />
+              <TextInput
+                style={{ marginLeft: 10, flex: 1 }}
+                autoCapitalize={"none"}
+                placeholder={"API-Key (Optional)"}
+                autoCompleteType={"username"}
+                onChangeText={(text) => setKeyinput(text)}
+                value={keyinput}
+                secureTextEntry={true}
+              />
+            </View>
           </View>
 
           <View style={styles.buttons}>
@@ -190,5 +197,7 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     marginVertical: 10,
     padding: 10,
+    flexDirection: "row",
+    alignItems: "center",
   },
 });

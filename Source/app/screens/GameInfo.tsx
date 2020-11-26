@@ -17,8 +17,8 @@ import GameHeader from "../components/GameInfoComponents/GameHeader";
 import { FontAwesome } from "@expo/vector-icons";
 import { colors } from "../themes/theme";
 
-export default function GameInfo(props) {
-  const { id, abbreviation } = props.route.params;
+export default function GameInfo({ route }) {
+  const { id, abbreviation } = route.params;
   const [loading, setLoading] = useState(true);
   const [name, setName] = useState("");
   const [game, setGame] = useState([]);
@@ -28,10 +28,11 @@ export default function GameInfo(props) {
   const [categories, setCategories] = useState([]);
   const [favourite, setFavourite] = useState(false);
   const [players, setPlayers] = useState([]);
-  const [checked, setChecked] = useState(0);
+  const [checked, setChecked] = useState("");
 
-  const _isFavourite = async (id) => {
-    const gameList = JSON.parse(await AsyncStorage.getItem("@MyGames"));
+  const _isFavourite = async (id: string) => {
+    const MyGames = await AsyncStorage.getItem("@MyGames");
+    const gameList = JSON.parse(MyGames === null ? "[]" : MyGames);
     if (gameList != null) {
       for (let GAME of gameList) {
         if (GAME.id == id) {
@@ -40,19 +41,15 @@ export default function GameInfo(props) {
       }
     }
   };
-
   const _toggleFavourites = async () => {
     const games = await AsyncStorage.getItem("@MyGames");
-    var gameList = JSON.parse(games);
+    var gameList = JSON.parse(games === null ? "[]" : games);
     //Create game obj
     var game = {
       id: id,
       abbreviation: abbreviation,
     };
-    if (gameList == null) {
-      gameList = [];
-    }
-    if (favourite) {
+    if (!favourite) {
       //add game to list
       gameList.push(game);
       //Game added to list
@@ -95,7 +92,6 @@ export default function GameInfo(props) {
         //Fetch Variables
         LoadVariables(selectedCategory);
         //Set State
-        setLoading(false);
         setGame(data.data);
         setName(data.data.names.international);
         setCategories(outCategories);
@@ -107,7 +103,7 @@ export default function GameInfo(props) {
     };
   }, []);
 
-  async function LoadVariables(categoryid) {
+  async function LoadVariables(categoryid: string) {
     try {
       setRuns([]);
       //Fetch Variables from Speedrun.com
@@ -182,7 +178,7 @@ export default function GameInfo(props) {
       console.log(error);
     }
   }
-  const buildUrl = (id, value, url, index) => {
+  const buildUrl = (id: string, value: string, url: string, index: number) => {
     try {
       //index = number of values loaded on the url
       if (index == 1) {
@@ -194,7 +190,7 @@ export default function GameInfo(props) {
       console.log(error);
     }
   };
-  const modifyUrl = (id, value) => {
+  const modifyUrl = (id: string, value: string) => {
     setRuns([]);
     var outUrl;
     //Url contains id
@@ -212,7 +208,7 @@ export default function GameInfo(props) {
     }
     LoadRuns(outUrl);
   };
-  async function LoadRuns(url) {
+  async function LoadRuns(url: string) {
     try {
       //Fetch Runs from Speedrun.com
       const response = await fetch(url);
@@ -220,27 +216,43 @@ export default function GameInfo(props) {
       setRuns(data.data.runs);
       setUrl(url);
       setPlayers(data.data.players.data);
+      setLoading(false);
     } catch (error) {
       console.log(error);
     }
   }
+  const getPlayerName = (id) => {
+    for (let player of players) {
+      if (player.id === id) {
+        return player.names.international;
+      }
+    }
+  };
   const renderRun = ({ item, index }) => {
     try {
-      const name =
-        players[index].names.international != null
-          ? players[index].names.international
-          : "null";
+      var names = "";
+      var i = index;
+      for (let player of item.run.players) {
+        if (player.name === undefined) {
+          names += players[i].names.international + " ";
+        } else {
+          names += player.name + " ";
+        }
+        i++;
+      }
       return (
         <Run
           place={item.place}
-          runner={name}
+          runner={names}
           time={item.run.times.primary}
           abbreviation={abbreviation}
           categoryid={item.run.category}
           weblink={item.run.weblink}
         />
       );
-    } catch (error) {}
+    } catch (error) {
+      // console.log(error);
+    }
   };
   const ListFooter = () => {
     return <View style={{ padding: 20 }}></View>;
@@ -252,7 +264,6 @@ export default function GameInfo(props) {
           abbreviation={abbreviation}
           name={name}
           date={game["release-date"]}
-          // platforms={game.platforms}
         >
           {favourite ? (
             <FontAwesome
@@ -318,7 +329,6 @@ export default function GameInfo(props) {
                     <View style={styles.button}>
                       <Button
                         title={item.label}
-                        style={styles.button}
                         color={colors.primary}
                         onPress={() => modifyUrl(item.categoryid, item.id)}
                       />
@@ -327,7 +337,6 @@ export default function GameInfo(props) {
                     <View style={styles.button}>
                       <Button
                         title={item.label}
-                        style={styles.button}
                         color={colors.darkgrey}
                         onPress={() => modifyUrl(item.categoryid, item.id)}
                       />
@@ -372,18 +381,6 @@ export default function GameInfo(props) {
 }
 
 const styles = StyleSheet.create({
-  profileBG: {
-    flex: 1,
-    resizeMode: "cover",
-    backgroundColor: colors.black,
-  },
-  imagecontainer: {
-    flex: 1,
-    paddingTop: 30,
-    alignContent: "center",
-    justifyContent: "flex-end",
-    alignItems: "center",
-  },
   //Category Button
   categorybuttoncontainer: {
     backgroundColor: colors.white,
@@ -432,24 +429,5 @@ const styles = StyleSheet.create({
     alignContent: "center",
     marginHorizontal: 10,
     marginVertical: 10,
-  },
-  buttontext: {
-    flex: 1,
-    backgroundColor: colors.white,
-    alignContent: "center",
-    justifyContent: "center",
-    alignItems: "center",
-    alignSelf: "center",
-    textAlign: "center",
-    color: colors.primary,
-    fontWeight: "bold",
-    fontSize: 15,
-    borderRadius: 5,
-    textAlignVertical: "center",
-    paddingHorizontal: 20,
-    shadowColor: colors.darkgrey,
-    shadowOffset: { width: 5, height: 5 },
-    shadowOpacity: 0.9,
-    elevation: 2,
   },
 });

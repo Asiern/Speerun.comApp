@@ -1,11 +1,11 @@
 import React from "react";
 import { View } from "react-native";
-import Svg, { NumberProp, Path } from "react-native-svg";
+import Svg, { Path } from "react-native-svg";
 import { colors } from "../themes/theme";
 
 export interface svgheaderProps {
-  height: NumberProp;
-  width: NumberProp;
+  height: number;
+  width: number;
 }
 export default function svgheader({ height, width }) {
   return (

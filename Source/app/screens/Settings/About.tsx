@@ -1,11 +1,13 @@
 import React from "react";
 import { StyleSheet, Text, View, ScrollView } from "react-native";
 import Constants from "expo-constants";
+import { StatusBar } from "expo-status-bar";
 import { colors } from "../../themes/theme";
 
 export default function About() {
   return (
     <ScrollView style={styles.container}>
+      <StatusBar style={"dark"}></StatusBar>
       <View style={styles.info}>
         <View style={styles.logocontainer}>
           <Text style={styles.logo}>Speedrun Hub</Text>
@@ -26,9 +28,8 @@ export default function About() {
 
         <Text style={styles.title}>WIP</Text>
         <Text style={styles.paragraph}>
-          App Refresh{"\n"}
-          Themes{"\n"}Animations{"\n"}UI Design{"\n"}Run Info{"\n"}Push
-          Notifications{"\n"}Japanese text support
+          Themes{"\n"}Animations{"\n"}UI Design{"\n"}Run Info{"\n"}Japanese text
+          support
         </Text>
         <Text style={styles.title}>Release Notes</Text>
         <Text
@@ -40,7 +41,8 @@ export default function About() {
           What's New
         </Text>
         <Text style={styles.paragraph}>
-          Personal Bests are now sorted by games.
+          - Onboarding {"\n"}- Increased Game leaderboard `FlatList`
+          performance.
         </Text>
         <Text
           style={[
@@ -51,13 +53,9 @@ export default function About() {
           Fixes
         </Text>
         <Text style={styles.paragraph}>
-          Fixed: Cannot remove games from `MyGames`.
-          {"\n"}
-          {"\n"}
-          Fixed: MyGames not reloading when adding/removing games.
-          {"\n"}
-          {"\n"}
-          Fixed: Back button not working properly.
+          - Fixed Login. {"\n"}- Fixed Account Settings user image not loading
+          properly.{"\n"}- Fixed Navigation. {"\n"}- Fixed Runs with multiple
+          runners not displaying properly.
         </Text>
         <Text style={styles.title}>Send Feedback</Text>
         <Text style={styles.paragraph}>

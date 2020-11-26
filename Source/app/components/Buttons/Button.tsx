@@ -34,6 +34,10 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     marginVertical: 10,
+    shadowColor: colors.darkgrey,
+    shadowOffset: { width: 5, height: 5 },
+    shadowOpacity: 1,
+    elevation: 1,
   },
   label: {
     fontSize: 15,

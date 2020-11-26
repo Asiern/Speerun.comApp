@@ -8,23 +8,32 @@ import {
   Image,
 } from "react-native";
 import { colors, h4w } from "../../themes/theme";
+import { useValue, onScrollEvent } from "react-native-redash/lib/module/v1";
+import Dot from "../Dot";
+import Animated, { divide } from "react-native-reanimated";
 
 export interface CarouselProps {
   username: string;
   signup: string;
+  country?: string;
 }
 
-export default function Carousel({ username, signup }: CarouselProps) {
-  const { width } = Dimensions.get("screen");
-  const [selected, setSelected] = useState(true);
+export default function Carousel({ username, signup, country }: CarouselProps) {
+  const { width } = Dimensions.get("window");
+  const x = useValue(0);
+  const onScroll = onScrollEvent({ x });
 
   return (
     <View style={styles.container}>
-      <ScrollView
+      <Animated.ScrollView
         horizontal
         pagingEnabled
         showsHorizontalScrollIndicator={false}
-        onScrollEndDrag={() => setSelected(!selected)}
+        snapToInterval={width}
+        decelerationRate={"fast"}
+        bounces={false}
+        scrollEventThrottle={1}
+        {...{ onScroll }}
       >
         <View style={[styles.imagecontainer, { width }]}>
           <Image
@@ -39,9 +48,10 @@ export default function Carousel({ username, signup }: CarouselProps) {
         </View>
         <View style={[styles.info, { width }]}>
           <Text style={h4w}>Signup: {signup}</Text>
+          <Text style={h4w}>{country}</Text>
         </View>
-      </ScrollView>
-      <View
+      </Animated.ScrollView>
+      <Animated.View
         style={{
           flex: 1,
           flexDirection: "row",
@@ -49,17 +59,9 @@ export default function Carousel({ username, signup }: CarouselProps) {
           paddingTop: 20,
         }}
       >
-        {selected == true ? (
-          <View style={[styles.circle, { backgroundColor: colors.white }]} />
-        ) : (
-          <View style={[styles.circunference, { borderColor: colors.white }]} />
-        )}
-        {selected == false ? (
-          <View style={[styles.circle, { backgroundColor: colors.white }]} />
-        ) : (
-          <View style={[styles.circunference, { borderColor: colors.white }]} />
-        )}
-      </View>
+        <Dot index={0} currentIndex={divide(x, width)} color={colors.white} />
+        <Dot index={1} currentIndex={divide(x, width)} color={colors.white} />
+      </Animated.View>
     </View>
   );
 }

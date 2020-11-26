@@ -8,11 +8,11 @@ import {
   Linking,
 } from "react-native";
 import { colors } from "../themes/theme";
-import Feather from "@expo/vector-icons/Feather";
+import { Feather } from "@expo/vector-icons";
 
 export interface SettingsSectionProps {
-  navigateTO?: string;
-  weblink?: string;
+  navigateTO: string | null;
+  weblink: string | null;
   icon: string;
   backgroundColor: string;
   accentColor: string;
@@ -32,8 +32,8 @@ const SettingsSection = ({
   return (
     <TouchableOpacity
       onPress={
-        navigateTO == null
-          ? () => Linking.openURL(weblink)
+        navigateTO === null
+          ? () => Linking.openURL(weblink == null ? "" : weblink)
           : () => navigation.navigate(navigateTO)
       }
     >

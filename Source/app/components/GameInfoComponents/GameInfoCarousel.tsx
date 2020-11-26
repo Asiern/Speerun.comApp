@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import {
   ScrollView,
   StyleSheet,
@@ -8,36 +8,56 @@ import {
   Image,
 } from "react-native";
 import { colors, h4w } from "../../themes/theme";
+import { useValue, onScrollEvent } from "react-native-redash/lib/module/v1";
+import Dot from "../Dot";
+import Animated, { divide } from "react-native-reanimated";
+
+import platfroms from "../../assets/Platforms.json";
 
 export interface CarouselProps {
   abbreviation: string;
   date: string;
-  platforms: any[];
+  platformIDs: any[];
 }
 
 export default function Carousel({
   abbreviation,
   date,
-  platforms,
+  platformIDs,
 }: CarouselProps) {
-  const { width } = Dimensions.get("screen");
-  const [selected, setSelected] = useState(true);
+  const { width } = Dimensions.get("window");
+  const x = useValue(0);
+  const onScroll = onScrollEvent({ x });
 
-  // function getPlatforms(platforms) {
-  //   var out = "";
-  //   for (let platform of platforms) {
-  //     out = out + " " + platform.toString();
-  //   }
-  //   return out;
-  // }
+  function getPlatforms() {
+    console.log("GetPlatforms");
+    if (platformIDs !== undefined) {
+      var out = "";
+      for (var i = 0; i < platformIDs.length; i++) {
+        for (let platform of platfroms.data) {
+          if (platform.id === platformIDs[i]) {
+            out += platform.name + " ";
+            break;
+          }
+        }
+      }
+      return out;
+    } else {
+      return "Undefined";
+    }
+  }
 
   return (
     <View style={styles.container}>
-      <ScrollView
+      <Animated.ScrollView
         horizontal
         pagingEnabled
         showsHorizontalScrollIndicator={false}
-        onScrollEndDrag={() => setSelected(!selected)}
+        snapToInterval={width}
+        decelerationRate={"fast"}
+        bounces={false}
+        scrollEventThrottle={1}
+        {...{ onScroll }}
       >
         <View style={[styles.imagecontainer, { width }]}>
           <Image
@@ -50,12 +70,12 @@ export default function Carousel({
             style={styles.Image}
           ></Image>
         </View>
-        <View style={[styles.info, { width }]}>
+        <View style={[styles.info, { width, padding: 20 }]}>
           <Text style={h4w}>Release Date: {date}</Text>
-          <Text style={h4w}>a</Text>
+          <Text style={h4w}>{getPlatforms()}</Text>
         </View>
-      </ScrollView>
-      <View
+      </Animated.ScrollView>
+      <Animated.View
         style={{
           flex: 1,
           flexDirection: "row",
@@ -63,17 +83,9 @@ export default function Carousel({
           paddingTop: 20,
         }}
       >
-        {selected == true ? (
-          <View style={[styles.circle, { backgroundColor: colors.white }]} />
-        ) : (
-          <View style={[styles.circunference, { borderColor: colors.white }]} />
-        )}
-        {selected == false ? (
-          <View style={[styles.circle, { backgroundColor: colors.white }]} />
-        ) : (
-          <View style={[styles.circunference, { borderColor: colors.white }]} />
-        )}
-      </View>
+        <Dot index={0} currentIndex={divide(x, width)} color={colors.primary} />
+        <Dot index={1} currentIndex={divide(x, width)} color={colors.primary} />
+      </Animated.View>
     </View>
   );
 }

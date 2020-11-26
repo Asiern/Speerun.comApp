@@ -13,7 +13,7 @@ const NotificationCard = ({
   backgroundColor,
   text,
 }: NotificationCardProps) => {
-  function stripHtml(html) {
+  function stripHtml(html: string) {
     const regex = /(<([^>]+)>)/gi;
     const result = html.replace(regex, "");
     return result;

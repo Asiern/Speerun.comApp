@@ -1,7 +1,7 @@
 import React from "react";
 import { TouchableOpacity, StyleSheet, Text, ColorValue } from "react-native";
 import { h3 } from "../../themes/theme";
-import Feather from "@expo/vector-icons/Feather";
+import { Feather } from "@expo/vector-icons";
 
 export interface SquareButtonProps {
   title: String;

@@ -4,7 +4,7 @@ import { Text, View, StyleSheet, Image } from "react-native";
 import { StackActions, useNavigation } from "@react-navigation/native";
 
 import Constants from "expo-constants";
-import Feather from "@expo/vector-icons/Feather";
+import { Feather } from "@expo/vector-icons";
 import { colors, h2w, h4w } from "../../themes/theme";
 import Carousel from "./ProfileCarousel";
 
@@ -34,15 +34,10 @@ const ProfileHeader = ({ username, country, signup }: ProfileHeaderProps) => {
         <View style={styles.topbarright}></View>
       </View>
       <View style={styles.imagecontainer}>
-        <Carousel username={username} signup={signup} />
+        <Carousel username={username} signup={signup} country={country} />
       </View>
       <View style={styles.userinfo}>
         <Text style={[h2w, { fontWeight: "bold" }]}>{username}</Text>
-        <View>
-          <View>
-            <Text style={h4w}>{country}</Text>
-          </View>
-        </View>
       </View>
     </View>
   );

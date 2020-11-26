@@ -33,14 +33,15 @@ export default function Subslide({
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
-    padding: 44,
-  },
-  textcontainer: {
-    marginVertical: 20,
     justifyContent: "space-between",
     alignItems: "center",
+    paddingHorizontal: 44,
+    paddingVertical: 10,
+  },
+  textcontainer: {
+    alignItems: "center",
     flex: 1,
+    marginTop: 20,
+    justifyContent: "center",
   },
 });

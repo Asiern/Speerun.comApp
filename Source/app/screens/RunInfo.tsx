@@ -11,12 +11,12 @@ import Splits from "../components/Splits/Splits";
 
 const { width } = Dimensions.get("window");
 
-function getId(weblink) {
+function getId(weblink: string) {
   const first = weblink.lastIndexOf("/") + 1;
   const last = weblink.length;
   return weblink.slice(first, last);
 }
-function getPlayers(data) {
+function getPlayers(data: any[]) {
   var outString = "";
   for (let player of data.players.data) {
     if (player.names.international != "null") {
@@ -27,9 +27,9 @@ function getPlayers(data) {
   }
   return outString;
 }
-function timeConverter(time) {
+function timeConverter(time: string) {
   var result = time.toLowerCase();
-  return result.substr(2, result.lenght);
+  return result.substr(2, result.length);
 }
 export default function RunInfo(props) {
   const { weblink } = props.route.params;

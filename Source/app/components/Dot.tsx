@@ -1,14 +1,15 @@
 import * as React from "react";
-import { View, Text } from "react-native";
+import { ColorValue } from "react-native";
 import Animated, { Extrapolate, interpolate } from "react-native-reanimated";
 import { colors } from "../themes/theme";
 
 export interface DotProps {
   index: number;
   currentIndex: Animated.Node<number>;
+  color: ColorValue;
 }
 
-export default function Dot({ index, currentIndex }: DotProps) {
+export default function Dot({ index, currentIndex, color }: DotProps) {
   const opacity = interpolate(currentIndex, {
     inputRange: [index - 1, index, index + 1],
     outputRange: [0.5, 1, 0.5],
@@ -23,7 +24,7 @@ export default function Dot({ index, currentIndex }: DotProps) {
     <Animated.View
       style={{
         opacity,
-        backgroundColor: colors.primary,
+        backgroundColor: color,
         width: 8,
         height: 8,
         borderRadius: 4,

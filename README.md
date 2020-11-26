@@ -56,22 +56,24 @@ It allows you to consult the speedrun.com page natively on your Android/iOS devi
    curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
    $ sudo apt-get install -y nodejs
    ```
+   
+2. Install [Yarn](https://classic.yarnpkg.com/en/docs/install)
 
-2. Install [Git](https://git-scm.com/)
+3. Install [Git](https://git-scm.com/)
 
    ```
    #Using Ubuntu
    $ sudo apt install git
    ```
 
-3. Install [Expo CLI](https://docs.expo.io/get-started/installation/)
+4. Install [Expo CLI](https://docs.expo.io/get-started/installation/)
 
    ```
    # Install the command line tools
    $ sudo npm install --global expo-cli
    ```
 
-4. Clone the repository using Git
+5. Clone the repository using Git
 
    ```
    # Navigate to the location in which you would like to store this repository
@@ -94,14 +96,14 @@ It allows you to consult the speedrun.com page natively on your Android/iOS devi
 
    ```
    # Navigate to the "...\SpeedrunHub\Source" folder and run the following command
-   $ npm update
+   $ yarn
    ```
 
 6. Run
 
    ```
    # At "...\SpeedrunHub\Source" run
-   $ npm start
+   $ yarn run expo
    # Expo Metro Bundler should open if all went well
    ```
    

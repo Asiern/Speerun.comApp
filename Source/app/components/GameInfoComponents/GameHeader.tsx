@@ -55,7 +55,7 @@ const GameHeader = ({
         <Carousel
           abbreviation={abbreviation}
           date={date}
-          platforms={platforms}
+          platformIDs={platforms}
         />
       </View>
       <View style={styles.userinfo}>

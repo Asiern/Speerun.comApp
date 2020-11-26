@@ -1,0 +1,2537 @@
+{
+  "data": [
+    {
+      "id": "8gejmne3",
+      "name": "3DO Interactive Multiplayer",
+      "released": 1993,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/8gejmne3"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=8gejmne3"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=8gejmne3"
+        }
+      ]
+    },
+    {
+      "id": "mx6pow93",
+      "name": "Acorn Archimedes",
+      "released": 1987,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/mx6pow93"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=mx6pow93"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=mx6pow93"
+        }
+      ]
+    },
+    {
+      "id": "gde32g6k",
+      "name": "Amiga",
+      "released": 1985,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/gde32g6k"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=gde32g6k"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=gde32g6k"
+        }
+      ]
+    },
+    {
+      "id": "wxeo0der",
+      "name": "Amiga CD32",
+      "released": 1993,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/wxeo0der"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=wxeo0der"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=wxeo0der"
+        }
+      ]
+    },
+    {
+      "id": "5negykey",
+      "name": "Amstrad CPC",
+      "released": 1984,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/5negykey"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=5negykey"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=5negykey"
+        }
+      ]
+    },
+    {
+      "id": "gde3vw9k",
+      "name": "Amstrad PCW",
+      "released": 1985,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/gde3vw9k"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=gde3vw9k"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=gde3vw9k"
+        }
+      ]
+    },
+    {
+      "id": "lq60nl94",
+      "name": "Android",
+      "released": 2008,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/lq60nl94"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=lq60nl94"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=lq60nl94"
+        }
+      ]
+    },
+    {
+      "id": "w89ryw6l",
+      "name": "Apple II",
+      "released": 1977,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/w89ryw6l"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=w89ryw6l"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=w89ryw6l"
+        }
+      ]
+    },
+    {
+      "id": "7g6mom9r",
+      "name": "Apple IIGS",
+      "released": 1986,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/7g6mom9r"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=7g6mom9r"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=7g6mom9r"
+        }
+      ]
+    },
+    {
+      "id": "vm9vn63k",
+      "name": "Arcade",
+      "released": 1980,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/vm9vn63k"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=vm9vn63k"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=vm9vn63k"
+        }
+      ]
+    },
+    {
+      "id": "mr6k206z",
+      "name": "Arduboy",
+      "released": 2015,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/mr6k206z"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=mr6k206z"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=mr6k206z"
+        }
+      ]
+    },
+    {
+      "id": "o0644863",
+      "name": "Atari 2600",
+      "released": 1977,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/o0644863"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=o0644863"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=o0644863"
+        }
+      ]
+    },
+    {
+      "id": "lq60ol64",
+      "name": "Atari 5200",
+      "released": 1982,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/lq60ol64"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=lq60ol64"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=lq60ol64"
+        }
+      ]
+    },
+    {
+      "id": "gde33gek",
+      "name": "Atari 7800",
+      "released": 1986,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/gde33gek"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=gde33gek"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=gde33gek"
+        }
+      ]
+    },
+    {
+      "id": "n5e1m7e2",
+      "name": "Atari 8-bit family (400/800/XL/XE)",
+      "released": 1979,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/n5e1m7e2"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=n5e1m7e2"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=n5e1m7e2"
+        }
+      ]
+    },
+    {
+      "id": "jm9577eo",
+      "name": "Atari Flashback",
+      "released": 2012,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/jm9577eo"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=jm9577eo"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=jm9577eo"
+        }
+      ]
+    },
+    {
+      "id": "jm95oz6o",
+      "name": "Atari Jaguar",
+      "released": 1993,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/jm95oz6o"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=jm95oz6o"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=jm95oz6o"
+        }
+      ]
+    },
+    {
+      "id": "kz9wzm9p",
+      "name": "Atari Jaguar CD",
+      "released": 1995,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/kz9wzm9p"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=kz9wzm9p"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=kz9wzm9p"
+        }
+      ]
+    },
+    {
+      "id": "o0641163",
+      "name": "Atari Lynx",
+      "released": 1989,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/o0641163"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=o0641163"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=o0641163"
+        }
+      ]
+    },
+    {
+      "id": "n5e1g7e2",
+      "name": "Atari ST",
+      "released": 1985,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/n5e1g7e2"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=n5e1g7e2"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=n5e1g7e2"
+        }
+      ]
+    },
+    {
+      "id": "gz9q2390",
+      "name": "BBC Micro",
+      "released": 1981,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/gz9q2390"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=gz9q2390"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=gz9q2390"
+        }
+      ]
+    },
+    {
+      "id": "wxeo8d6r",
+      "name": "ColecoVision",
+      "released": 1982,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/wxeo8d6r"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=wxeo8d6r"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=wxeo8d6r"
+        }
+      ]
+    },
+    {
+      "id": "gz9qox60",
+      "name": "Commodore 64",
+      "released": 1982,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/gz9qox60"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=gz9qox60"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=gz9qox60"
+        }
+      ]
+    },
+    {
+      "id": "p36n4x98",
+      "name": "Commodore CDTV",
+      "released": 1991,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/p36n4x98"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=p36n4x98"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=p36n4x98"
+        }
+      ]
+    },
+    {
+      "id": "w89ryd6l",
+      "name": "Commodore VIC-20",
+      "released": 1980,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/w89ryd6l"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=w89ryd6l"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=w89ryd6l"
+        }
+      ]
+    },
+    {
+      "id": "lq60rd64",
+      "name": "Dragon 32/64",
+      "released": 1982,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/lq60rd64"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=lq60rd64"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=lq60rd64"
+        }
+      ]
+    },
+    {
+      "id": "v06d394z",
+      "name": "Dreamcast",
+      "released": 1999,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/v06d394z"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=v06d394z"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=v06d394z"
+        }
+      ]
+    },
+    {
+      "id": "gde31w9k",
+      "name": "Fairchild Channel F",
+      "released": 1983,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/gde31w9k"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=gde31w9k"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=gde31w9k"
+        }
+      ]
+    },
+    {
+      "id": "mr6k409z",
+      "name": "Famicom Disk System",
+      "released": 1986,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/mr6k409z"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=mr6k409z"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=mr6k409z"
+        }
+      ]
+    },
+    {
+      "id": "jm95k79o",
+      "name": "FM Towns",
+      "released": 1989,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/jm95k79o"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=jm95k79o"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=jm95k79o"
+        }
+      ]
+    },
+    {
+      "id": "gz9qkx90",
+      "name": "Game & Watch",
+      "released": 1980,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/gz9qkx90"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=gz9qkx90"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=gz9qkx90"
+        }
+      ]
+    },
+    {
+      "id": "n5683oev",
+      "name": "Game Boy",
+      "released": 1989,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/n5683oev"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=n5683oev"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=n5683oev"
+        }
+      ]
+    },
+    {
+      "id": "3167d6q2",
+      "name": "Game Boy Advance",
+      "released": 2001,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/3167d6q2"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=3167d6q2"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=3167d6q2"
+        }
+      ]
+    },
+    {
+      "id": "gde3g9k1",
+      "name": "Game Boy Color",
+      "released": 1998,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/gde3g9k1"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=gde3g9k1"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=gde3g9k1"
+        }
+      ]
+    },
+    {
+      "id": "vm9v3ne3",
+      "name": "Game Boy Interface",
+      "released": 2015,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/vm9v3ne3"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=vm9v3ne3"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=vm9v3ne3"
+        }
+      ]
+    },
+    {
+      "id": "7m6yvw6p",
+      "name": "Game Boy Player",
+      "released": 2003,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/7m6yvw6p"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=7m6yvw6p"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=7m6yvw6p"
+        }
+      ]
+    },
+    {
+      "id": "31672keq",
+      "name": "Game.Com",
+      "released": 1997,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/31672keq"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=31672keq"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=31672keq"
+        }
+      ]
+    },
+    {
+      "id": "4p9z06rn",
+      "name": "GameCube",
+      "released": 2001,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/4p9z06rn"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=4p9z06rn"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=4p9z06rn"
+        }
+      ]
+    },
+    {
+      "id": "o064z1e3",
+      "name": "Google Stadia",
+      "released": 2019,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/o064z1e3"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=o064z1e3"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=o064z1e3"
+        }
+      ]
+    },
+    {
+      "id": "gz9qwx90",
+      "name": "Graphing Calculator",
+      "released": 1985,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/gz9qwx90"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=gz9qwx90"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=gz9qwx90"
+        }
+      ]
+    },
+    {
+      "id": "w89rwwel",
+      "name": "HTC Vive",
+      "released": 2016,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/w89rwwel"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=w89rwwel"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=w89rwwel"
+        }
+      ]
+    },
+    {
+      "id": "o0643893",
+      "name": "Intellivision",
+      "released": 1979,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/o0643893"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=o0643893"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=o0643893"
+        }
+      ]
+    },
+    {
+      "id": "gde3xgek",
+      "name": "iOS",
+      "released": 2007,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/gde3xgek"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=gde3xgek"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=gde3xgek"
+        }
+      ]
+    },
+    {
+      "id": "p36nd598",
+      "name": "iQue Player",
+      "released": 2003,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/p36nd598"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=p36nd598"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=p36nd598"
+        }
+      ]
+    },
+    {
+      "id": "nzel5r6q",
+      "name": "Java Phone",
+      "released": 1998,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/nzel5r6q"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=nzel5r6q"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=nzel5r6q"
+        }
+      ]
+    },
+    {
+      "id": "5neg7key",
+      "name": "Linux",
+      "released": 1991,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/5neg7key"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=5neg7key"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=5neg7key"
+        }
+      ]
+    },
+    {
+      "id": "mx6ppw63",
+      "name": "Macintosh",
+      "released": 1984,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/mx6ppw63"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=mx6ppw63"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=mx6ppw63"
+        }
+      ]
+    },
+    {
+      "id": "mx6px493",
+      "name": "MegaNet",
+      "released": 1995,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/mx6px493"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=mx6px493"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=mx6px493"
+        }
+      ]
+    },
+    {
+      "id": "mr6km09z",
+      "name": "MS-DOS",
+      "released": 1970,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/mr6km09z"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=mr6km09z"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=mr6km09z"
+        }
+      ]
+    },
+    {
+      "id": "jm950z6o",
+      "name": "MSX",
+      "released": 1983,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/jm950z6o"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=jm950z6o"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=jm950z6o"
+        }
+      ]
+    },
+    {
+      "id": "83exkk6l",
+      "name": "MSX2",
+      "released": 1985,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/83exkk6l"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=83exkk6l"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=83exkk6l"
+        }
+      ]
+    },
+    {
+      "id": "83exlkel",
+      "name": "N-Gage",
+      "released": 2003,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/83exlkel"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=83exlkel"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=83exlkel"
+        }
+      ]
+    },
+    {
+      "id": "7g6mw8er",
+      "name": "NEC PC-88 series",
+      "released": 1981,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/7g6mw8er"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=7g6mw8er"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=7g6mw8er"
+        }
+      ]
+    },
+    {
+      "id": "o064r893",
+      "name": "NEC PC-98 series",
+      "released": 1982,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/o064r893"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=o064r893"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=o064r893"
+        }
+      ]
+    },
+    {
+      "id": "mx6p4w63",
+      "name": "Neo Geo AES",
+      "released": 1990,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/mx6p4w63"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=mx6p4w63"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=mx6p4w63"
+        }
+      ]
+    },
+    {
+      "id": "kz9w7mep",
+      "name": "Neo Geo CD",
+      "released": 1994,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/kz9w7mep"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=kz9w7mep"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=kz9w7mep"
+        }
+      ]
+    },
+    {
+      "id": "n5e1z292",
+      "name": "Neo Geo Mini",
+      "released": 2018,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/n5e1z292"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=n5e1z292"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=n5e1z292"
+        }
+      ]
+    },
+    {
+      "id": "7m6ydw6p",
+      "name": "Neo Geo Pocket Color",
+      "released": 1998,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/7m6ydw6p"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=7m6ydw6p"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=7m6ydw6p"
+        }
+      ]
+    },
+    {
+      "id": "o7e2lj9w",
+      "name": "Neo Geo X",
+      "released": 2012,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/o7e2lj9w"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=o7e2lj9w"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=o7e2lj9w"
+        }
+      ]
+    },
+    {
+      "id": "kz9wynep",
+      "name": "NES Classic Mini",
+      "released": 2016,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/kz9wynep"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=kz9wynep"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=kz9wynep"
+        }
+      ]
+    },
+    {
+      "id": "kz9wqn9p",
+      "name": "New Nintendo 3DS",
+      "released": 2014,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/kz9wqn9p"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=kz9wqn9p"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=kz9wqn9p"
+        }
+      ]
+    },
+    {
+      "id": "v06do394",
+      "name": "New Nintendo 3DS Virtual Console",
+      "released": 2014,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/v06do394"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=v06do394"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=v06do394"
+        }
+      ]
+    },
+    {
+      "id": "gz9qx60q",
+      "name": "Nintendo 3DS",
+      "released": 2011,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/gz9qx60q"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=gz9qx60q"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=gz9qx60q"
+        }
+      ]
+    },
+    {
+      "id": "7g6mx89r",
+      "name": "Nintendo 3DS Virtual Console",
+      "released": 2011,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/7g6mx89r"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=7g6mx89r"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=7g6mx89r"
+        }
+      ]
+    },
+    {
+      "id": "w89rwelk",
+      "name": "Nintendo 64",
+      "released": 1996,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/w89rwelk"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=w89rwelk"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=w89rwelk"
+        }
+      ]
+    },
+    {
+      "id": "7g6m8erk",
+      "name": "Nintendo DS",
+      "released": 2004,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/7g6m8erk"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=7g6m8erk"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=7g6m8erk"
+        }
+      ]
+    },
+    {
+      "id": "jm95z9ol",
+      "name": "Nintendo Entertainment System",
+      "released": 1983,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/jm95z9ol"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=jm95z9ol"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=jm95z9ol"
+        }
+      ]
+    },
+    {
+      "id": "v06dmz64",
+      "name": "Nvidia Shield",
+      "released": 2015,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/v06dmz64"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=v06dmz64"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=v06dmz64"
+        }
+      ]
+    },
+    {
+      "id": "4p9zq09r",
+      "name": "Oculus VR",
+      "released": 2016,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/4p9zq09r"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=4p9zq09r"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=4p9zq09r"
+        }
+      ]
+    },
+    {
+      "id": "8gej5193",
+      "name": "Oric",
+      "released": 1983,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/8gej5193"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=8gej5193"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=8gej5193"
+        }
+      ]
+    },
+    {
+      "id": "nzeloreq",
+      "name": "Ouya",
+      "released": 2012,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/nzeloreq"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=nzeloreq"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=nzeloreq"
+        }
+      ]
+    },
+    {
+      "id": "nzelrveq",
+      "name": "Palm OS",
+      "released": 1996,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/nzelrveq"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=nzelrveq"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=nzelrveq"
+        }
+      ]
+    },
+    {
+      "id": "8gej2n93",
+      "name": "PC",
+      "released": 1970,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/8gej2n93"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=8gej2n93"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=8gej2n93"
+        }
+      ]
+    },
+    {
+      "id": "p36n8568",
+      "name": "PC-FX",
+      "released": 1994,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/p36n8568"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=p36n8568"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=p36n8568"
+        }
+      ]
+    },
+    {
+      "id": "w89rjw6l",
+      "name": "Philips CD-i",
+      "released": 1991,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/w89rjw6l"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=w89rjw6l"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=w89rjw6l"
+        }
+      ]
+    },
+    {
+      "id": "wxeod9rn",
+      "name": "PlayStation",
+      "released": 1994,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/wxeod9rn"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=wxeod9rn"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=wxeod9rn"
+        }
+      ]
+    },
+    {
+      "id": "n5e17e27",
+      "name": "PlayStation 2",
+      "released": 2000,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/n5e17e27"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=n5e17e27"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=n5e17e27"
+        }
+      ]
+    },
+    {
+      "id": "mx6pwe3g",
+      "name": "PlayStation 3",
+      "released": 2006,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/mx6pwe3g"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=mx6pwe3g"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=mx6pwe3g"
+        }
+      ]
+    },
+    {
+      "id": "nzelkr6q",
+      "name": "PlayStation 4",
+      "released": 2013,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/nzelkr6q"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=nzelkr6q"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=nzelkr6q"
+        }
+      ]
+    },
+    {
+      "id": "nzeljv9q",
+      "name": "PlayStation 4 Pro",
+      "released": 2016,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/nzeljv9q"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=nzeljv9q"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=nzeljv9q"
+        }
+      ]
+    },
+    {
+      "id": "4p9zjrer",
+      "name": "PlayStation 5",
+      "released": 2020,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/4p9zjrer"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=4p9zjrer"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=4p9zjrer"
+        }
+      ]
+    },
+    {
+      "id": "o7e2vj6w",
+      "name": "Playstation Classic",
+      "released": 2018,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/o7e2vj6w"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=o7e2vj6w"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=o7e2vj6w"
+        }
+      ]
+    },
+    {
+      "id": "wxeo5z6r",
+      "name": "Playstation Now",
+      "released": 2014,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/wxeo5z6r"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=wxeo5z6r"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=wxeo5z6r"
+        }
+      ]
+    },
+    {
+      "id": "5negk9y7",
+      "name": "PlayStation Portable",
+      "released": 2004,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/5negk9y7"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=5negk9y7"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=5negk9y7"
+        }
+      ]
+    },
+    {
+      "id": "lq60gle4",
+      "name": "Playstation TV",
+      "released": 2013,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/lq60gle4"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=lq60gle4"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=lq60gle4"
+        }
+      ]
+    },
+    {
+      "id": "4p9z70er",
+      "name": "PlayStation Vita",
+      "released": 2011,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/4p9z70er"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=4p9z70er"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=4p9z70er"
+        }
+      ]
+    },
+    {
+      "id": "3167od9q",
+      "name": "Plug & Play",
+      "released": 1970,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/3167od9q"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=3167od9q"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=3167od9q"
+        }
+      ]
+    },
+    {
+      "id": "vm9vr1e3",
+      "name": "Pokémon Mini",
+      "released": 2001,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/vm9vr1e3"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=vm9vr1e3"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=vm9vr1e3"
+        }
+      ]
+    },
+    {
+      "id": "wxeo2d6r",
+      "name": "PSN Download",
+      "released": 2006,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/wxeo2d6r"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=wxeo2d6r"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=wxeo2d6r"
+        }
+      ]
+    },
+    {
+      "id": "jm95l76o",
+      "name": "Roku",
+      "released": 2020,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/jm95l76o"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=jm95l76o"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=jm95l76o"
+        }
+      ]
+    },
+    {
+      "id": "83exokel",
+      "name": "Satellaview",
+      "released": 1995,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/83exokel"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=83exokel"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=83exokel"
+        }
+      ]
+    },
+    {
+      "id": "kz9wrn6p",
+      "name": "Sega 32X",
+      "released": 1994,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/kz9wrn6p"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=kz9wrn6p"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=kz9wrn6p"
+        }
+      ]
+    },
+    {
+      "id": "31670d9q",
+      "name": "Sega CD",
+      "released": 1992,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/31670d9q"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=31670d9q"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=31670d9q"
+        }
+      ]
+    },
+    {
+      "id": "w89r3w9l",
+      "name": "Sega Game Gear",
+      "released": 1990,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/w89r3w9l"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=w89r3w9l"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=w89r3w9l"
+        }
+      ]
+    },
+    {
+      "id": "mr6k0ezw",
+      "name": "Sega Genesis",
+      "released": 1988,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/mr6k0ezw"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=mr6k0ezw"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=mr6k0ezw"
+        }
+      ]
+    },
+    {
+      "id": "83exwk6l",
+      "name": "Sega Master System",
+      "released": 1985,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/83exwk6l"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=83exwk6l"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=83exwk6l"
+        }
+      ]
+    },
+    {
+      "id": "lq60l642",
+      "name": "Sega Saturn",
+      "released": 1994,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/lq60l642"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=lq60l642"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=lq60l642"
+        }
+      ]
+    },
+    {
+      "id": "o0641863",
+      "name": "Sharp X1",
+      "released": 1982,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/o0641863"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=o0641863"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=o0641863"
+        }
+      ]
+    },
+    {
+      "id": "83exovel",
+      "name": "SNES Classic Mini",
+      "released": 2017,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/83exovel"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=83exovel"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=83exovel"
+        }
+      ]
+    },
+    {
+      "id": "5negr76y",
+      "name": "Super Cassette Vision",
+      "released": 1984,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/5negr76y"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=5negr76y"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=5negr76y"
+        }
+      ]
+    },
+    {
+      "id": "3167jd6q",
+      "name": "Super Game Boy",
+      "released": 1994,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/3167jd6q"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=3167jd6q"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=3167jd6q"
+        }
+      ]
+    },
+    {
+      "id": "n5e147e2",
+      "name": "Super Game Boy 2",
+      "released": 1998,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/n5e147e2"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=n5e147e2"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=n5e147e2"
+        }
+      ]
+    },
+    {
+      "id": "83exk6l5",
+      "name": "Super Nintendo",
+      "released": 1990,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/83exk6l5"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=83exk6l5"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=83exk6l5"
+        }
+      ]
+    },
+    {
+      "id": "7m6ylw9p",
+      "name": "Switch",
+      "released": 2017,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/7m6ylw9p"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=7m6ylw9p"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=7m6ylw9p"
+        }
+      ]
+    },
+    {
+      "id": "mx6p1463",
+      "name": "Switch Virtual Console",
+      "released": 2018,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/mx6p1463"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=mx6p1463"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=mx6p1463"
+        }
+      ]
+    },
+    {
+      "id": "vm9vkn63",
+      "name": "Tabletop",
+      "released": 1970,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/vm9vkn63"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=vm9vkn63"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=vm9vkn63"
+        }
+      ]
+    },
+    {
+      "id": "5nego76y",
+      "name": "Texas Instruments TI-99/4A",
+      "released": 1981,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/5nego76y"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=5nego76y"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=5nego76y"
+        }
+      ]
+    },
+    {
+      "id": "3167qkeq",
+      "name": "Tiger",
+      "released": 1978,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/3167qkeq"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=3167qkeq"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=3167qkeq"
+        }
+      ]
+    },
+    {
+      "id": "p36nlxe8",
+      "name": "TurboGrafx-16 CD-ROM",
+      "released": 1998,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/p36nlxe8"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=p36nlxe8"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=p36nlxe8"
+        }
+      ]
+    },
+    {
+      "id": "5negxk6y",
+      "name": "TurboGrafx-16/PC Engine",
+      "released": 1987,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/5negxk6y"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=5negxk6y"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=5negxk6y"
+        }
+      ]
+    },
+    {
+      "id": "8gej8n93",
+      "name": "V.Smile",
+      "released": 2004,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/8gej8n93"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=8gej8n93"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=8gej8n93"
+        }
+      ]
+    },
+    {
+      "id": "83exvv9l",
+      "name": "Valve Index",
+      "released": 2019,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/83exvv9l"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=83exvv9l"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=83exvv9l"
+        }
+      ]
+    },
+    {
+      "id": "7g6mk8er",
+      "name": "Virtual Boy",
+      "released": 1995,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/7g6mk8er"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=7g6mk8er"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=7g6mk8er"
+        }
+      ]
+    },
+    {
+      "id": "o7e25xew",
+      "name": "Web",
+      "released": 10000,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/o7e25xew"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=o7e25xew"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=o7e25xew"
+        }
+      ]
+    },
+    {
+      "id": "v06dk3e4",
+      "name": "Wii",
+      "released": 2006,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/v06dk3e4"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=v06dk3e4"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=v06dk3e4"
+        }
+      ]
+    },
+    {
+      "id": "8gejn93d",
+      "name": "Wii U",
+      "released": 2012,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/8gejn93d"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=8gejn93d"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=8gejn93d"
+        }
+      ]
+    },
+    {
+      "id": "v06dr394",
+      "name": "Wii U Virtual Console",
+      "released": 2012,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/v06dr394"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=v06dr394"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=v06dr394"
+        }
+      ]
+    },
+    {
+      "id": "nzelreqp",
+      "name": "Wii Virtual Console",
+      "released": 2006,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/nzelreqp"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=nzelreqp"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=nzelreqp"
+        }
+      ]
+    },
+    {
+      "id": "w89r4d6l",
+      "name": "Windows Mixed Reality",
+      "released": 2017,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/w89r4d6l"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=w89r4d6l"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=w89r4d6l"
+        }
+      ]
+    },
+    {
+      "id": "p36no5e8",
+      "name": "Windows Phone",
+      "released": 2010,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/p36no5e8"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=p36no5e8"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=p36no5e8"
+        }
+      ]
+    },
+    {
+      "id": "vm9v8n63",
+      "name": "WonderSwan",
+      "released": 1999,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/vm9v8n63"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=vm9v8n63"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=vm9v8n63"
+        }
+      ]
+    },
+    {
+      "id": "n568kz6v",
+      "name": "Wonderswan Colour",
+      "released": 2000,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/n568kz6v"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=n568kz6v"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=n568kz6v"
+        }
+      ]
+    },
+    {
+      "id": "n5681o9v",
+      "name": "X68000",
+      "released": 1987,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/n5681o9v"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=n5681o9v"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=n5681o9v"
+        }
+      ]
+    },
+    {
+      "id": "jm95zz9o",
+      "name": "Xbox",
+      "released": 2001,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/jm95zz9o"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=jm95zz9o"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=jm95zz9o"
+        }
+      ]
+    },
+    {
+      "id": "n568oevp",
+      "name": "Xbox 360",
+      "released": 2005,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/n568oevp"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=n568oevp"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=n568oevp"
+        }
+      ]
+    },
+    {
+      "id": "lq60vde4",
+      "name": "Xbox 360 Arcade",
+      "released": 2007,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/lq60vde4"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=lq60vde4"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=lq60vde4"
+        }
+      ]
+    },
+    {
+      "id": "o7e2mx6w",
+      "name": "Xbox One",
+      "released": 2013,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/o7e2mx6w"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=o7e2mx6w"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=o7e2mx6w"
+        }
+      ]
+    },
+    {
+      "id": "o064j163",
+      "name": "Xbox One S",
+      "released": 2013,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/o064j163"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=o064j163"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=o064j163"
+        }
+      ]
+    },
+    {
+      "id": "4p9z0r6r",
+      "name": "Xbox One X",
+      "released": 2017,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/4p9z0r6r"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=4p9z0r6r"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=4p9z0r6r"
+        }
+      ]
+    },
+    {
+      "id": "o7e2xj9w",
+      "name": "Xbox Series S",
+      "released": 2020,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/o7e2xj9w"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=o7e2xj9w"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=o7e2xj9w"
+        }
+      ]
+    },
+    {
+      "id": "nzelyv9q",
+      "name": "Xbox Series X",
+      "released": 2020,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/nzelyv9q"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=nzelyv9q"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=nzelyv9q"
+        }
+      ]
+    },
+    {
+      "id": "7m6y2zep",
+      "name": "Zeebo",
+      "released": 2009,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/7m6y2zep"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=7m6y2zep"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=7m6y2zep"
+        }
+      ]
+    },
+    {
+      "id": "n568zo6v",
+      "name": "ZX Spectrum",
+      "released": 1982,
+      "links": [
+        {
+          "rel": "self",
+          "uri": "https://www.speedrun.com/api/v1/platforms/n568zo6v"
+        },
+        {
+          "rel": "games",
+          "uri": "https://www.speedrun.com/api/v1/games?platform=n568zo6v"
+        },
+        {
+          "rel": "runs",
+          "uri": "https://www.speedrun.com/api/v1/runs?platform=n568zo6v"
+        }
+      ]
+    }
+  ],
+  "pagination": {
+    "offset": 0,
+    "max": 200,
+    "size": 133,
+    "links": []
+  }
+}

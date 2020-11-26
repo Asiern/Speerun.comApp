@@ -2,8 +2,7 @@
 
 ## What's new?
 
-- Now you can view Runs.
-- Now you can view run splits (splits i/o).
+- Onboarding
 - Increased Game leaderboard `FlatList` performance.
 
 ## Fixes
@@ -11,10 +10,11 @@
 - Fixed Login.
 - Fixed Account Settings user image not loading properly.
 - Fixed Navigation.
+- Fixed Runs with multiple runners not displaying properly.
+- Fixed Text inputs.
 
 ## Known issues
 
-- Runs with multiple runners not displaying properly.
 - Japanese names not displaying.
 - OS forced darkmode breaks `UserHeader.js` colors.
 

@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
 import AsyncStorage from "@react-native-community/async-storage";
 import { ActivityIndicator } from "react-native";
-import { ThemeProvider } from "@shopify/restyle";
-import theme from "./app/theme";
 
 //Screens
 import Navigation from "./app/Navigation/Navigation";
@@ -35,10 +33,6 @@ export default function App() {
   if (loading) {
     return <ActivityIndicator />;
   } else {
-    return (
-      <ThemeProvider theme={theme}>
-        <Navigation />
-      </ThemeProvider>
-    );
+    return <Navigation />;
   }
 }

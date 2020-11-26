@@ -1,11 +1,14 @@
+import { useRoute } from "@react-navigation/native";
 import { StatusBar } from "expo-status-bar";
 import React from "react";
-import { View, StyleSheet, FlatList } from "react-native";
+import { View, StyleSheet, FlatList, Dimensions } from "react-native";
 import NotificationCard from "../components/Notifications/NotificationCard";
 import { colors } from "../themes/theme";
 
-const Notifications = (props) => {
-  const { data } = props.route.params;
+const Notifications = () => {
+  const { data } = useRoute().params;
+  const { width } = Dimensions.get("window");
+
   return (
     <View style={styles.container}>
       <StatusBar style={"auto"}></StatusBar>
@@ -17,7 +20,7 @@ const Notifications = (props) => {
             {item.status == "read" ? (
               <View>
                 <NotificationCard
-                  width={props.width}
+                  width={width}
                   text={item.text}
                   backgroundColor={colors.white}
                   color={colors.darkgrey}
@@ -26,7 +29,7 @@ const Notifications = (props) => {
             ) : (
               <View>
                 <NotificationCard
-                  width={props.width}
+                  width={width}
                   text={item.text}
                   backgroundColor={colors.primary}
                   color={colors.white}

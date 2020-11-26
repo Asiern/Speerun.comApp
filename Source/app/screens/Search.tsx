@@ -6,6 +6,7 @@ import { createMaterialTopTabNavigator } from "@react-navigation/material-top-ta
 import Games from "../components/Search/Games";
 import Users from "../components/Search/Users";
 import { StatusBar } from "expo-status-bar";
+import { AdMobBanner } from "expo-ads-admob";
 
 const Tab = createMaterialTopTabNavigator();
 
@@ -25,6 +26,11 @@ export default function Search() {
         <Tab.Screen name="Games" component={Games} />
         <Tab.Screen name="Users" component={Users} />
       </Tab.Navigator>
+      <AdMobBanner
+        bannerSize="fullBanner"
+        adUnitID="ca-app-pub-3552758561036628/7487974176"
+        servePersonalizedAds
+      />
     </View>
   );
 }

@@ -1,4 +1,6 @@
 {
+  "name": "SpeedrunHub",
+  "displayName": "SpeedrunHub",
   "expo": {
     "name": "SpeedrunHub",
     "slug": "speedruncomapp",

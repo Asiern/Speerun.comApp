@@ -13,7 +13,7 @@ import { colors } from "../../themes/theme";
 import Button from "../../components/Buttons/Button";
 import { useNavigation } from "@react-navigation/native";
 
-const AccountSettings = (props) => {
+const AccountSettings = () => {
   async function save() {
     try {
       await AsyncStorage.removeItem("@Onboarding");
@@ -24,7 +24,7 @@ const AccountSettings = (props) => {
   const [key, setKey] = useState("");
   const navigation = useNavigation();
 
-  const showToastWithGravity = (text) => {
+  const showToastWithGravity = (text: string) => {
     ToastAndroid.showWithGravity(text, ToastAndroid.SHORT, ToastAndroid.CENTER);
   };
   function copyKey() {
@@ -36,9 +36,9 @@ const AccountSettings = (props) => {
       const tempuser = await AsyncStorage.getItem("@user");
       const tempuserid = await AsyncStorage.getItem("@userid");
       const tempuserkey = await AsyncStorage.getItem("@API-Key");
-      setUser(tempuser);
-      setUserId(tempuserid);
-      setKey(tempuserkey);
+      setUser(tempuser == null ? "" : tempuser);
+      setUserId(tempuserid == null ? "" : tempuserid);
+      setKey(tempuserkey == null ? "" : tempuserkey);
     })();
   }, []);
 

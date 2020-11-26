@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigation } from "@react-navigation/native";
-import { View, Text, StyleSheet } from "react-native";
+import { View, Text, StyleSheet, Linking } from "react-native";
 import { TouchableOpacity } from "react-native-gesture-handler";
 
 import { colors } from "../themes/theme";
@@ -14,25 +14,21 @@ export interface RunProps {
   weblink: string;
 }
 
-export default function Run(props: RunProps) {
+export default function Run({ place, runner, time, weblink }: RunProps) {
   const navigation = useNavigation();
   return (
     <TouchableOpacity
-      onPress={() =>
-        navigation.navigate("RunInfo", {
-          weblink: props.weblink,
-        })
-      }
+      onPress={() => Linking.openURL(weblink)}
       style={styles.container}
     >
       <View style={styles.place}>
-        <Text style={styles.accenttext}>{props.place}</Text>
+        <Text style={styles.accenttext}>{place}</Text>
       </View>
       <View style={styles.runner}>
-        <Text style={styles.text}>{props.runner}</Text>
+        <Text style={styles.text}>{runner}</Text>
       </View>
       <View style={styles.time}>
-        <Text style={styles.text}>{props.time}</Text>
+        <Text style={styles.text}>{time}</Text>
       </View>
     </TouchableOpacity>
   );

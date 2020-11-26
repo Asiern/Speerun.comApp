@@ -1,11 +1,17 @@
-import { useNavigation } from "@react-navigation/native";
+import { Link, useNavigation } from "@react-navigation/native";
 import React from "react";
-import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
+import {
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
+  Linking,
+} from "react-native";
 import { colors } from "../themes/theme";
 
-function timeConverter(time) {
+function timeConverter(time: string) {
   var result = time.toLowerCase();
-  return result.substr(2, result.lenght);
+  return result.substr(2, result.length);
 }
 
 export interface PBProps {
@@ -20,11 +26,7 @@ const PB = ({ weblink, place, category, time }: PBProps) => {
 
   return (
     <TouchableOpacity
-      onPress={() =>
-        navigation.navigate("RunInfo", {
-          weblink: weblink,
-        })
-      }
+      onPress={() => Linking.openURL(weblink)}
       style={styles.container}
     >
       <View style={styles.place}>

@@ -3,7 +3,7 @@ import { createStackNavigator } from "@react-navigation/stack";
 import { createMaterialBottomTabNavigator } from "@react-navigation/material-bottom-tabs";
 
 import { colors } from "../themes/theme";
-import Feather from "@expo/vector-icons/Feather";
+import { Feather } from "@expo/vector-icons";
 
 //Screens
 import Home from "../screens/Home";
@@ -15,12 +15,13 @@ import Search from "../screens/Search";
 import Notifications from "../screens/Notifications";
 import AccountSettings from "../screens/Settings/AccountSettings";
 import RunInfo from "../screens/RunInfo";
+import DevSettings from "../screens/Settings/DevSettings";
 
 //Stacks
 const Stack = createStackNavigator();
 const BottomTabs = createMaterialBottomTabNavigator();
 
-const createHomeStack = (props) => (
+const createHomeStack = () => (
   <Stack.Navigator>
     <Stack.Screen
       name="Home"
@@ -46,7 +47,7 @@ const createHomeStack = (props) => (
     />
   </Stack.Navigator>
 );
-const createSettingsStack = (props) => (
+const createSettingsStack = () => (
   <Stack.Navigator>
     <Stack.Screen name="Settings" component={SETTINGS} />
     <Stack.Screen
@@ -55,9 +56,10 @@ const createSettingsStack = (props) => (
       options={{ title: "My Account" }}
     />
     <Stack.Screen name="About" component={About} />
+    <Stack.Screen name="DevSettings" component={DevSettings} />
   </Stack.Navigator>
 );
-const createSearchStack = (props) => (
+const createSearchStack = () => (
   <Stack.Navigator>
     <Stack.Screen
       name="Search"
