@@ -35,11 +35,11 @@ export default function Search() {
         <Tab.Screen name="Games" component={Games} />
         <Tab.Screen name="Users" component={Users} />
       </Tab.Navigator>
-      {/* <AdMobBanner
+      <AdMobBanner
         bannerSize="fullBanner"
         adUnitID={AdMob.search}
         servePersonalizedAds
-      /> */}
+      />
     </View>
   );
 }

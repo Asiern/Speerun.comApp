@@ -43,12 +43,6 @@ export function About() {
         >
           Disclaimer: This is not an official app
         </Text>
-
-        <Text style={[styles.title, { color: theme.colors.primary }]}>WIP</Text>
-        <Text style={[styles.paragraph, { color: theme.colors.text }]}>
-          Themes{"\n"}Animations{"\n"}UI Design{"\n"}Run Info{"\n"}Japanese text
-          support
-        </Text>
         <Text style={[styles.title, { color: theme.colors.primary }]}>
           Release Notes
         </Text>
@@ -66,8 +60,8 @@ export function About() {
           What's New
         </Text>
         <Text style={[styles.paragraph, { color: theme.colors.text }]}>
-          - Onboarding {"\n"}- Increased Game leaderboard `FlatList`
-          performance.
+          - RunInfo {"\n"}- Expo SDK 40 {"\n"}- Themes {"\n"}- Notifications
+          Settings {"\n"}- Show misc. categories
         </Text>
         <Text
           style={[
@@ -83,9 +77,43 @@ export function About() {
           Fixes
         </Text>
         <Text style={[styles.paragraph, { color: theme.colors.text }]}>
-          - Fixed Login. {"\n"}- Fixed Account Settings user image not loading
-          properly.{"\n"}- Fixed Navigation. {"\n"}- Fixed Runs with multiple
-          runners not displaying properly.
+          - Fixed: Login layout issues when using the keyboard. {"\n"}- Fixed:
+          Leaderboard times format. {"\n"}- Fixed: App crashes when selecting a
+          guest user profile/run. {"\n"}- Fixed: Settings layout. {"\n"}- Fixed:
+          Webview interactions.
+        </Text>
+        <Text
+          style={[
+            styles.paragraph,
+            {
+              fontWeight: "bold",
+              paddingBottom: -5,
+              fontSize: 18,
+              color: theme.colors.text,
+            },
+          ]}
+        >
+          Performance
+        </Text>
+        <Text style={[styles.paragraph, { color: theme.colors.text }]}>
+          - App loading {"\n"}- App perfomance
+        </Text>
+        <Text
+          style={[
+            styles.paragraph,
+            {
+              fontWeight: "bold",
+              paddingBottom: -5,
+              fontSize: 18,
+              color: theme.colors.text,
+            },
+          ]}
+        >
+          Known Issues
+        </Text>
+        <Text style={[styles.paragraph, { color: theme.colors.text }]}>
+          - Japanese names not displaying. {"\n"}- OS forced darkmode breaks
+          `UserHeader.js` colors. {"\n"}- Game without categories not loading.
         </Text>
         <Text style={[styles.title, { color: theme.colors.primary }]}>
           Send Feedback

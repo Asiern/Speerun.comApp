@@ -1,6 +1,6 @@
 # :trophy:SpeedrunHub
 
-[![GitHub release](https://img.shields.io/badge/Latest-1.0.12-blue?style=flat-square)](https://github.com/Asiern/SpeedrunHub/releases/latest)
+[![GitHub release](https://img.shields.io/badge/Latest-1.0.13-blue?style=flat-square)](https://github.com/Asiern/SpeedrunHub/releases/latest)
 [![GitHub license](https://img.shields.io/badge/License-GPL--3.0-red?style=flat-square)](https://raw.githubusercontent.com/Asiern/SpeedrunHub/master/LICENSE)
 [![runs with expo](https://img.shields.io/badge/Runs%20with%20Expo-000.svg?style=flat-square&logo=EXPO&labelColor=f3f3f3&logoColor=000)](https://expo.io/)
 [![PayPal](https://img.shields.io/badge/Support-000.svg?style=flat-square&logo=PayPal&labelColor=f3f3f3&logoColor=000)](https://www.paypal.me/asiernl)
@@ -125,25 +125,35 @@ It allows you to consult the speedrun.com page natively on your Android/iOS devi
 
 ## :scroll: Release Notes
 
-### Version 1.0.12 | [View All Versions](Notes.md)
+### Version 1.0.13 | [View All Versions](Notes.md)
 
 #### What's new?
 
-- Onboarding
-- Increased Game leaderboard `FlatList` performance.
+- RunInfo
+- Expo SDK 40
+- Themes
+- Context
+- Notifications Settings
+- Show misc. categories
 
 #### Fixes
 
-- Fixed Login.
-- Fixed Account Settings user image not loading properly.
-- Fixed Navigation.
-- Fixed Runs with multiple runners not displaying properly.
-- Fixed Text inputs.
+- Fixed: Login layout issues when using the keyboard.
+- Fixed: Leaderboard times format.
+- Fixed: App crashes when selecting a guest user profile/run.
+- Fixed: Settings layout.
+- Fixed: Webview interactions.
+
+#### Performance
+
+- App loading
+- App perfomance
 
 #### Known issues
 
 - Japanese names not displaying.
 - OS forced darkmode breaks `UserHeader.js` colors.
+- Game without categories not loading.
 
 ## :page_with_curl: Privacy Policy / Terms & Conditions / License
 
