@@ -2,7 +2,6 @@ import React, { useContext } from "react";
 import { StyleSheet, Text, View, ScrollView } from "react-native";
 import Constants from "expo-constants";
 import { StatusBar } from "expo-status-bar";
-import { colors } from "../../themes/theme";
 import { context } from "../../config/config";
 
 export function About() {

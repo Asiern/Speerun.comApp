@@ -9,7 +9,7 @@ import {
   Dimensions,
 } from "react-native";
 import { colors, h2, h6 } from "../themes/theme";
-import AsyncStorage from "@react-native-community/async-storage";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 import { TextInput } from "react-native-gesture-handler";
 import { KeyboardAwareScrollView } from "react-native-keyboard-aware-scroll-view";
 

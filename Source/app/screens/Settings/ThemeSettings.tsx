@@ -2,7 +2,7 @@ import { Feather } from "@expo/vector-icons";
 import React, { useContext } from "react";
 import { View, StyleSheet, Dimensions, ScrollView } from "react-native";
 import { TouchableOpacity } from "react-native-gesture-handler";
-import AsyncStorage from "@react-native-community/async-storage";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 
 import { PalleteSquare } from "../../components/PalleteSquare";
 import { context } from "../../config/config";

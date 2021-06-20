@@ -9,7 +9,7 @@ import {
 } from "react-native";
 import { h3, h4b, h6 } from "../../themes/theme";
 import { config, context } from "../../config/config";
-import AsyncStorage from "@react-native-community/async-storage";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 import Slider from "@react-native-community/slider";
 import Button from "../../components/Buttons/Button";
 const { width } = Dimensions.get("window");

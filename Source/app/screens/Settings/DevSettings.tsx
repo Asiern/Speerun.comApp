@@ -1,4 +1,4 @@
-import AsyncStorage from "@react-native-community/async-storage";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 import * as React from "react";
 import { Text, ToastAndroid, View } from "react-native";
 import Button from "../../components/Buttons/Button";

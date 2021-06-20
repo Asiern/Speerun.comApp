@@ -5,7 +5,6 @@ import { colors } from "../themes/theme";
 import { createMaterialTopTabNavigator } from "@react-navigation/material-top-tabs";
 import Games from "../components/Search/Games";
 import Users from "../components/Search/Users";
-import { StatusBar } from "expo-status-bar";
 
 //AdMob
 import AdMob from "../config/admob.json";

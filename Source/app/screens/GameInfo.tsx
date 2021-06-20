@@ -8,7 +8,7 @@ import {
 } from "react-native";
 import VariableButton from "../components/GameInfoComponents/VariableButton";
 import { TouchableOpacity } from "react-native-gesture-handler";
-import AsyncStorage from "@react-native-community/async-storage";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 import { StatusBar } from "expo-status-bar";
 
 import Run from "../components/Run";
@@ -34,39 +34,39 @@ export default function GameInfo({ route }) {
   const _isFavourite = async (id: string) => {
     const MyGames = await AsyncStorage.getItem("@MyGames");
     const gameList = JSON.parse(MyGames === null ? "[]" : MyGames);
-    if (gameList != null) {
+    if (gameList !== null) {
       for (let GAME of gameList) {
-        if (GAME.id == id) {
+        if (GAME.id === id) {
           setFavourite(true);
         }
       }
     }
   };
-  const _toggleFavourites = async () => {
-    const games = await AsyncStorage.getItem("@MyGames");
-    var gameList = JSON.parse(games === null ? "[]" : games);
-    //Create game obj
-    var game = {
-      id: id,
-      abbreviation: abbreviation,
-    };
-    if (!favourite) {
-      //add game to list
-      gameList.push(game);
-      //Game added to list
-      await AsyncStorage.setItem("@MyGames", JSON.stringify(gameList));
-      setFavourite(true);
-    } else {
-      //Game got removed from list
-      for (let GAME of gameList) {
-        if (game.id == GAME.id) {
-          gameList.splice(gameList.indexOf(GAME), 1);
-        }
-      }
-      await AsyncStorage.setItem("@MyGames", JSON.stringify(gameList));
-      setFavourite(false);
-    }
-  };
+  // const _toggleFavourites = async () => {
+  //   const games = await AsyncStorage.getItem("@MyGames");
+  //   var gameList = JSON.parse(games === null ? "[]" : games);
+  //   //Create game obj
+  //   var game = {
+  //     id: id,
+  //     abbreviation: abbreviation,
+  //   };
+  //   if (!favourite) {
+  //     //add game to list
+  //     gameList.push(game);
+  //     //Game added to list
+  //     await AsyncStorage.setItem("@MyGames", JSON.stringify(gameList));
+  //     setFavourite(true);
+  //   } else {
+  //     //Game got removed from list
+  //     for (let GAME of gameList) {
+  //       if (game.id == GAME.id) {
+  //         gameList.splice(gameList.indexOf(GAME), 1);
+  //       }
+  //     }
+  //     await AsyncStorage.setItem("@MyGames", JSON.stringify(gameList));
+  //     setFavourite(false);
+  //   }
+  // };
   useEffect(() => {
     let mounted = true;
     if (mounted) {

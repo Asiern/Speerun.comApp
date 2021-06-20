@@ -13,7 +13,6 @@ import { StatusBar } from "expo-status-bar";
 import { Switch } from "react-native-gesture-handler";
 import { h6 } from "../themes/theme";
 import { context } from "../config/config";
-import Modal from "../components/RunInfo/Modal";
 
 export default function Profile(props) {
   const [country, setCountry] = useState("");

@@ -1,12 +1,6 @@
 import React, { useContext, useEffect, useRef, useState } from "react";
 import { StatusBar } from "expo-status-bar";
-import {
-  View,
-  StyleSheet,
-  Text,
-  ActivityIndicator,
-  ToastAndroid,
-} from "react-native";
+import { View, StyleSheet, Text, ActivityIndicator } from "react-native";
 import Animated, {
   useAnimatedScrollHandler,
   useSharedValue,

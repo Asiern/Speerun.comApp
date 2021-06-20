@@ -11,7 +11,7 @@ import Subslide from "../components/Subslide";
 import { colors } from "../themes/theme";
 import Dot from "../components/Dot";
 import { useNavigation } from "@react-navigation/native";
-import AsyncStorage from "@react-native-community/async-storage";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 import { interpolateColor } from "react-native-redash";
 import { context } from "../config/config";
 const { width } = Dimensions.get("window");

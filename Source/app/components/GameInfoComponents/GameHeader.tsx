@@ -8,7 +8,7 @@ import Constants from "expo-constants";
 import Feather from "@expo/vector-icons/Feather";
 import { colors, h2w } from "../../themes/theme";
 import { FontAwesome } from "@expo/vector-icons";
-import AsyncStorage from "@react-native-community/async-storage";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 import { context } from "../../config/config";
 
 export interface GameHeaderProps {
