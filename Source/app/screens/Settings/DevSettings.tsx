@@ -1,7 +1,6 @@
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import * as React from "react";
-import { Text, ToastAndroid, View } from "react-native";
-import Button from "../../components/Buttons/Button";
+import { Text, ToastAndroid, View, Button } from "react-native";
 import { context } from "../../config/config";
 import { h2 } from "../../themes/theme";
 
@@ -26,7 +25,7 @@ export function DevSettings() {
       <Text style={h2}>Async Storage Settings</Text>
       <Button
         variant={"primary"}
-        label={"Delete Onboarding"}
+        title={"Delete Onboarding"}
         onPress={async () => {
           try {
             await AsyncStorage.removeItem("@Onboarding");
@@ -41,7 +40,7 @@ export function DevSettings() {
       />
       <Button
         variant={"primary"}
-        label={"Delete Themes"}
+        title={"Delete Themes"}
         onPress={async () => {
           try {
             await AsyncStorage.removeItem("@Theme");
@@ -53,7 +52,7 @@ export function DevSettings() {
       />
       <Button
         variant={"primary"}
-        label={"Delete Config"}
+        title={"Delete Config"}
         onPress={async () => {
           try {
             await AsyncStorage.removeItem("@Config");
@@ -65,7 +64,7 @@ export function DevSettings() {
       />
       <Button
         variant={"primary"}
-        label={"Delete MyGames"}
+        title={"Delete MyGames"}
         onPress={async () => {
           try {
             await AsyncStorage.removeItem("@MyGames");
@@ -77,7 +76,7 @@ export function DevSettings() {
       />
       <Button
         variant={"primary"}
-        label={"Load MyGames"}
+        title={"Load MyGames"}
         onPress={async () => {
           try {
             await AsyncStorage.setItem("@MyGames", JSON.stringify(games));
