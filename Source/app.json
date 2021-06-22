@@ -5,7 +5,7 @@
     "name": "SpeedrunHub",
     "slug": "speedruncomapp",
     "platforms": ["ios", "android"],
-    "version": "1.0.13",
+    "version": "1.1.0",
     "orientation": "portrait",
     "icon": "./app/assets/trophy.png",
 
@@ -25,7 +25,7 @@
     "githubUrl": "https://github.com/Asiern/SpeedrunHub",
     "android": {
       "package": "com.asiern.speedrun2",
-      "versionCode": 1,
+      "versionCode": 2,
       "permissions": [],
       "config": {
         "googleMobileAdsAppId": "ca-app-pub-3552758561036628~8801055846"
